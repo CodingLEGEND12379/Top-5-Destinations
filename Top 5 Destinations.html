@@ -1,0 +1,42 @@
+<html>
+        <body><html>
+    <head>
+        <title> Tourist destination </title>
+    </head>
+    <body>
+        <center>
+            <img src="https://www.bootgum.com/wp-content/uploads/2018/07/Bootgum_Travel_550Watermarked.gif" width="50px" height="50px">
+        <h1 id="b"> Taj Mahal, India </h1>
+        <hr>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQW_GEdlK5DsVP6IX67PvSr0ougczF3QsolZy-OIU1k1jlOhHxDJHZXneHmyhp5S8i0rok&usqp=CAU" id="a">
+        <p id="c"> Construction of the mausoleum was essentially completed in 1643 </p>
+        <button onclick="changing()"> Next </button>
+
+
+    </body>
+    </html></body>
+        <style>#a{
+    width: 300px;
+    height: 200px;
+}
+body{
+    background-color: black;
+    color:white
+    
+}
+button{
+    background-color: white;
+    border-color: cyan;
+}</style>
+        <script>var heading=["Paris,France","Rome,Italy","Egypt","Niagra Falls,Canada"]
+var images=["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMyqqEUqLfe0fTCfvnBmgKDYuFvPGrZaXmNQ&usqp=CAU","https://www.fodors.com/wp-content/uploads/2018/10/HERO_UltimateRome_Hero_shutterstock789412159.jpg","https://www.state.gov/wp-content/uploads/2023/07/shutterstock_1037036482v2.jpg","https://www.mustdocanada.com/wp-content/uploads/2018/12/hornblowercruise.jpg"]
+var para=["The City of Paris has an official estimated population of 12,271,794 inhabitants on January 1, 2023","It is also the capital of the Lazio region, the centre of the Metropolitan City of Rome"," Arab Republic of Egypt, is a transcontinental country","Niagara Falls is a group of three waterfalls at the southern end of Niagara Gorge"]
+var i=0
+function changing(){
+    document.getElementById("b").innerHTML= heading[i]
+    document.getElementById("a").src= images[i]
+    document.getElementById("c").innerHTML= para[i]
+    i++
+}
+</script>
+      </html>
